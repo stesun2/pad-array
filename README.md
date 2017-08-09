@@ -6,7 +6,7 @@
 - Research and use Ruby methods
 - Differentiate between destructive and non-destructive methods
 
-So far we have mainly worked with non-destructive methods, which do not modify the original input as it returns a new object with a different set of values. In this challenge, you'll explore destructive methods, which replace the original data. N.B. In Ruby, the general convention is to add a "banger" (`!`) to destructive methods, but not always. 
+So far we have mainly worked with non-destructive methods, which do not modify the original input as it returns a new object with a different set of values. In this challenge, you'll explore destructive methods, which replace the original data. In Ruby, the general convention is to add a "bang" (`!`) to destructive methods, but not always. 
 
 Can you identify situations in which each approach would be used?
 
@@ -51,7 +51,7 @@ Keep your initial solution basic and concentrate on passing the tests in the inc
 
 ## Stretch challenge:
 
-Now go into the Ruby Docs to see if there are any enumerable methods you can simplify your code with. Also refactor for readability, and remember, one liners aren't necessarily the most efficient or "best" code.
+Now go into the Ruby Docs to see if there are any enumerable methods you can simplify your code with. Also refactor for readability, and remember, one-liners aren't necessarily the most efficient or "best" code.
 
 Make sure your code still passes the tests!
 
